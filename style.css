@@ -1,0 +1,269 @@
+body{
+    background: white;
+    
+    
+}
+.icon i{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.heading{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-evenly;
+    background-color: aliceblue ; width: 100%; height: 550px;
+   
+}
+.banner img{
+    width: 450%;
+    height: 500px;
+    padding: 10px;
+}
+.title{
+    padding: 20px;
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.title h1{
+font-size: 60px;
+
+}
+.title p{
+    font-size: 20px;
+    color: grey;
+}
+.title li{
+    font-size:20px ;
+
+}
+.apply{
+    background-color:grey;
+    color: white;
+    display: inline;
+    font-size: 30px;
+    padding: 5px;
+}
+.apply a{
+    color:black;
+}
+.apply a:hover{
+    color:white;
+}
+.container{
+
+   justify-content: space-between;
+   
+}
+
+.container h1{
+font-size: 60px;
+padding-top: 10px;
+text-align: center;
+margin-bottom: 60px;
+color: darkblue;
+position: relative;
+ 
+
+}
+.container h1::after{
+    background: #303ef7;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.lists{
+    display: grid;
+    grid-template-columns:repeat(auto-fit  ) ;
+    grid-gap: 150px;
+}
+.lists h2{
+    font-size:40px ;
+}
+.lists p{
+    font-size:30px ;
+}
+
+.object1 h3{
+    font-size: 50px;
+    color:dimgray;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.html{
+    padding: 30px;
+    font-size: 10px;
+    
+}
+.css{
+    padding: 30px;
+    font-size: 10px;
+    
+}
+.java{
+    padding: 30px;
+    font-size: 10px;
+   
+}
+
+.object2 h3{
+    font-size: 50px;
+    color:dimgray;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.nodejs{
+    padding: 30px;
+    font-size: 10px;
+    
+}
+.php{
+    padding: 30px;
+    font-size: 10px;
+    
+}
+.heading4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center; 
+    gap: 2.5rem;
+    background-color: var(--second-bg-color);
+ }
+ .contact{
+     margin-bottom: 12px;
+     font-size: 20px;
+     padding: 30px;
+ }
+ .contact h1{
+     margin: 18px;
+ font-size: 50px;
+ padding: 20px;
+ 
+ 
+ }
+ .details{
+    margin-bottom: 2.8rem;
+    padding: 10px;
+ }
+ .details li{
+     margin-bottom: 12px;
+ }
+ .details li a{
+     font-size: 19px;
+     color:cornflowerblue;
+     
+ }
+ .details li a:hover{
+     transform: translateX(5px);
+     color: rgb(179, 175, 175);
+     
+ }
+ .contact-icons i{
+     height: 45px;
+     width: 45px;
+     background: var(--main-color);
+     color: var(--text-color);
+     font-size: 22px;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 8px;
+     margin-right: 15px;
+ 
+ }
+ .contact-icons i:hover{
+     background: var(--text-color-);
+     color: darkcyan;
+ }
+ .contact-form{
+     position: relative;
+     margin-left: 80px;
+ 
+ }
+ .contact-form form input,form textarea{
+    width: 90%;
+    padding: 14px;
+    background:lightgrey;
+    color: black;
+    font-size: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+ }
+ 
+ .contact-form .submit{
+     font-size: 16px;
+     width: 160px;
+     text-align: center;
+     color: black;
+ }
+ .contact-form .submit:hover{
+     cursor: pointer;
+    
+ }
+
+ @media (max-width:1313px){
+    .heading{
+        display: flex;
+        width:100%;
+        height: 60px;
+        justify-content: space-evenly;
+        background-color: aliceblue ; width: 100%; height: 500px;
+       
+    }
+    
+    
+    
+    .title h1{
+    font-size: 40px;
+    
+    }
+    .title p{
+        font-size: 10px;
+        color: grey;
+    }
+    .title li{
+        font-size:10px ;
+    
+    }
+    .apply{
+        background-color:grey;
+        color: white;
+        display: inline;
+        font-size: 30px;
+        padding: 5px;
+    }
+    .apply a{
+        color:black;
+    }
+    .apply a:hover{
+        color:white;
+    }
+
+ }
+
+ @media (max-width:822px){
+ .banner img{
+    width: 150%;
+    height: 400px;
+    padding: 10px;
+}
+.title{
+    padding: 10px;
+    display: inline-block;
+    margin-left: 80px;
+}
+ }
+ @media (max-width:700px) {
+    .heading4{
+        grid-template-columns: 1fr;
+    }
+ 
+}
+ 
